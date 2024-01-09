@@ -13,8 +13,16 @@ import Player from '@/components/Player';
 const font = Figtree({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Spotify Clone',
-  description: 'Listen to music!',
+  title: 'Spotify',
+  description: 'The best platform for streaming.',
+  icons: {
+    icon: [
+      {
+        url: '/images/spotify.png',
+        href: '/images/spotify.png',
+      },
+    ],
+  },
 };
 
 export default async function RootLayout({
